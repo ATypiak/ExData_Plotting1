@@ -30,7 +30,7 @@ new_epc <- cbind(DateTime, epc[3:9])
 #change location to English
 Sys.setlocale("LC_TIME", "English")
 
-#write histogram to plot3.png
+#write plot to plot3.png
 png(filename = "plot3.png", width = 480, height = 480, units = "px")
 
 par(xaxs="r")
